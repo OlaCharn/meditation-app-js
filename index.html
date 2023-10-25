@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature sounds</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,400&display=swap" rel="stylesheet"></head>
+<body>
+    <div id="container">
+
+        <div id="container_item">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo" width="400px">
+                <source src="https://cdn.glitch.global/773fec8b-d7b2-4732-a830-e77bfbb8eb29/pexels-taryn-elliott-8549588-1080x1920-25fps.mp4?v=1686555566940" type="video/mp4" controls >
+            </video>
+    
+        <div id="container-timer">
+                <p id="showTime" >00:00</p>
+        </div>
+    </div>
+
+        <div id="container_btn">
+
+            <div id="container_btn_play">
+
+                <button id="playButton5min" class="btn">5 minutes</button>
+
+                <div class="containerTimer5Min" id="container_btn_start_stop_reset" > 
+                    <button id="start" class="icon_btn"> <img src="icons8-play-100.png" alt="" class="icon"> </button>
+                    <button id="stop" class="icon_btn"><img src="icons8-pause-100.png" alt="" class="icon"></button>
+                    <button id="reset" class="icon_btn"> <img src="icons8-reset-100.png" alt=""  class="icon"> </button>
+                </div>
+    
+            </div>
+
+            <div id="container_btn_play">
+
+                <button id="playButton7min" class="btn">7 minutes</button>
+
+            
+                <div id="container_btn_start_stop_reset">
+                    <button id="start"class="icon_btn"> <img src="icons8-play-100.png" alt="" class="icon" > </button>
+                    <button id="stop" class="icon_btn"><img src="icons8-pause-100.png" alt="" class="icon" ></button>
+                    <button id="reset" class="icon_btn"> <img src="icons8-reset-100.png" alt="" class="icon"> </button>
+                </div>
+            </div>
+
+            <div id="container_btn_play">
+                <button id="playButton10min" class="btn">10 minutes</button>
+                <div id="container_btn_start_stop_reset">
+                    <button id="start" class="icon_btn"> <img src="icons8-play-100.png" alt="" class="icon" > </button>
+                    <button id="stop" class="icon_btn"><img src="icons8-pause-100.png" alt="" class="icon"></button>
+                    <button id="reset" class="icon_btn"> <img src="icons8-reset-100.png" alt="" class="icon" > </button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+            <audio id="player" autoplay loop>
+                <source src="https://cdn.glitch.global/773fec8b-d7b2-4732-a830-e77bfbb8eb29/rain-and-thunder-16705.mp3?v=1686302980232" type="audio/mp3">
+            </audio>
+        </div>
+
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
